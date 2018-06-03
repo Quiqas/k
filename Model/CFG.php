@@ -31,7 +31,7 @@ $COD = new stdClass;
 | WARNING: If you change this, it will get errors
 |
 */
-$GLOBALS['COD']->dir = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=='on' ? 'https' : 'http' ).'://'.$_SERVER['HTTP_HOST'].DS."TDAH";
+$GLOBALS['COD']->dir = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=='on' ? 'https' : 'http' ).'://'.$_SERVER['HTTP_HOST'];
 
 /*
 |--------------------------------------------------------------------------
