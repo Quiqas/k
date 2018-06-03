@@ -64,7 +64,7 @@ $_SESSION['user_name'] = 'Norma';
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/TDAH/home">
+          <a class="navbar-brand" href="<?=$GLOBALS['COD']->dir?>/home">
             <img src="<?=$GLOBALS['COD']->dir?>/assets/dist/img/logoS.png" class=" navbar-brand Logo-Code"  alt="">
           </a>
           
@@ -74,7 +74,7 @@ $_SESSION['user_name'] = 'Norma';
         <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
           <ul class="nav navbar-nav">
             
-            <li class="active"><a href="/TDAH/menu">Menú</a></li>
+            <li class="active"><a href="<?=$GLOBALS['COD']->dir?>/menu">Menú</a></li>
            
           </ul>
           
@@ -149,7 +149,7 @@ $_SESSION['user_name'] = 'Norma';
                 <!-- Menu Footer-->
                 <li class="user-footer">
                   <div class="pull-left">
-                    <a href="<?=$GLOBALS['COD']->dir?>/Perfil" class="btn btn-default btn-flat">Perfil</a>
+                    <a href="<?=$GLOBALS['COD']->dir?>/perfil" class="btn btn-default btn-flat">Perfil</a>
                   </div>
                   <div class="pull-right">
                     <a href="<?=$GLOBALS['COD']->dir?>/logout" class="btn btn-default btn-flat">Salir</a>
