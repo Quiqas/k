@@ -1,0 +1,42 @@
+.page-header {
+    
+    border-bottom: 1px solid #ddd;
+}
+.mb-half {
+    margin-bottom: 0.75rem !important;
+}
+h2 {
+    font-size: 3.3rem;
+    line-height: 3.5rem;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 1.5rem !important;
+}
+.blue {
+    color: #02b3e4 ;
+}
+
+.info-box{
+	border-radius: 20px;
+}
+
+
+
+.info-box:hover{
+	 box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.8);
+}
+
+.sombra{
+	box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.4);
+}
+
+.info-box-icon{
+	border-radius: 20px;
+}

@@ -1,0 +1,131 @@
+.sombra{box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.4);}
+.bg-ios {
+    background-image: url(../../images/Movil.png);
+}
+.bg-android {
+    background-image: url(../../images/android.png);
+}
+.bg-artificial {
+    background-image: url(../../images/artificial.png);
+}
+.bg-marketing {
+    background-image: url(../../images/marketing.png);
+}
+
+.bg-web {
+    background-image: url(../../images/web.png);
+}
+.bg-front {
+    background-image: url(../../images/frontend.png);
+}
+.bg-full{
+    background-image: url(../../images/fullsatck.png);
+}
+.bg-deep {
+    background-image: url(../../images/deep.png);
+}
+.bg-design {
+    background-image: url(../../images/desing.png);
+}
+.bg-machine {
+    background-image: url(../../images/machine.png);
+}
+.bg-self {
+    background-image: url(../../images/selfdrivingcars.png);
+}
+.bg-robot {
+    background-image: url(../../images/robotics.png);
+}
+
+.bg-data {
+    background-image: url(../../images/data.png);
+}
+.bg-virtual {
+    background-image: url(../../images/virtualreality.png);
+}
+
+.bg-crear {
+    background-image: url(../../images/crear.png);
+}
+.path_card {
+    height: 15.00rem;
+    padding: 0 40px;
+    width: 270px;
+    max-width: 270px;
+    min-width: 270px;
+    margin: 0 0.75rem 1.5rem 0.75rem;
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    /*background: #02b3e4 center center no-repeat;*/
+    transition: box-shadow 0.3s ease;
+    background-size: cover;
+}
+.mb-half {
+    margin-bottom: 0.75rem !important;
+}
+
+.blue {
+    color: #02b3e4 ;
+}
+
+h2 {
+    font-size: 3.3rem;
+    line-height: 3.5rem;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+
+.path_card--description {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    max-width: 73.75rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 1.8rem;
+line-height: 2rem;
+font-weight: 600;
+}
+
+.cards-wrapper {
+    max-width: 150.75rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.path_card:hover {
+    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.8);
+
+}
+
+ .mb-1 {
+    margin-bottom: 1.5rem !important;
+}
+
+a {
+    border-bottom: none;
+    text-decoration: none;
+    color: blue;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+	color: white;
+}
